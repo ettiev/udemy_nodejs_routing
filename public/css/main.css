@@ -1,0 +1,38 @@
+body {
+    background-color: #6ab4d9;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #0818ab;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;   
+}
+
+.item_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.item {
+    margin: 0 1rem;
+    padding: 0;
+}
+
+.item_link {
+    text-decoration: none;
+    color: white;
+}
+
+.item a:hover,
+.item a:active,
+.item a.active {
+    color: #53d4eb;
+}
